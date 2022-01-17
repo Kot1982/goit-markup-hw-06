@@ -282,6 +282,10 @@ img {
 	align-items: center;
 	cursor: pointer;
 }
+.modal-close:hover .modal-close-logo,
+.modal-close:focus .modal-close-logo {
+	fill: var(--accent-color);
+}
 .modal-close-logo {
 	fill: #000000;
 }
@@ -563,7 +567,8 @@ img {
 .footer-social-container {
 	margin-left: 70px;
 }
-.footer-social-title {
+.footer-social-title,
+.footer-subscribe-title {
 	color: var(--light-color-for-another);
 	font-weight: 700;
 	font-size: 14px;
@@ -598,6 +603,47 @@ img {
 .footer-social-link:hover,
 .footer-social-link:focus {
 	background-color: #2196f3;
+}
+.footer-subscribe {
+	margin-left: 93px;
+}
+.subscribe-email {
+	width: 358px;
+	height: 50px;
+	margin-right: 12px;
+	padding-left: 16px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 4px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	background-color: var(--dark-background-color);
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 16px;
+	line-height: 1.25;
+}
+.subscribe-btn {
+	width: 200px;
+	height: 50px;
+	color: var(--light-color-for-another);
+	background-color: var(--accent-color);
+	padding-left: 29px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: inherit;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	align-items: center;
+	letter-spacing: 0.06em;
+	border: none;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-flex;
+}
+.subscribe-btn-text {
+	margin-right: 10px;
 }
 
 /* Стилизация страницы Портфолио */
