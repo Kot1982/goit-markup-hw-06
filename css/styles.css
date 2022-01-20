@@ -878,6 +878,8 @@ img {
 	background-origin: border-box;
 	background-image: url(../images/modal-check.svg);
 	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .modal-button {
 	display: flex;
